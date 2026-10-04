@@ -1,0 +1,19 @@
+# Environment and secret files
+.env
+.env.local
+
+# SQLite Database and local volume data
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Operating System artifacts
+.DS_Store
+Thumbs.db
